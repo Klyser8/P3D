@@ -14,12 +14,14 @@ using UnityEngine;
 /// - entrancePositions: The positions of the entrances.
 /// 
 /// </summary>
-[CreateAssetMenu(fileName = "RoomData", menuName = "Rooms/RoomData", order = 1)]
-public class RoomData : ScriptableObject
+[CreateAssetMenu(fileName = "RoomDataTemplate", menuName = "Rooms/RoomDataTemplate", order = 1)]
+public class RoomDataTemplate : ScriptableObject
 {
     public RoomType roomType;
     public List<CardinalPoint> entrances;
     public List<RoomType> suitableRooms;
     public bool isMandatory;
     public bool isEndRoom;
+
+    public GameObject roomPrefab;
 }

@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80084e61aa5a049bc8ab1e33ef04ade8, type: 3}
-  m_Name: HallwayStaircase1TopData
+  m_Name: DeadEnd1
   m_EditorClassIdentifier: 
-  roomType: 4
-  entrances: 0000000000000000
-  suitableRooms: 0100000002000000030000000600000007000000
+  roomType: 8
+  entrances: 02000000
+  suitableRooms: 
   isMandatory: 0
   isEndRoom: 0
+  roomPrefab: {fileID: 919132149155446097, guid: 33d4527ae74ca44659074c6bf49beb7e, type: 3}

@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80084e61aa5a049bc8ab1e33ef04ade8, type: 3}
-  m_Name: ThreeWay2Data
+  m_Name: HallwayStaircase1Bot
   m_EditorClassIdentifier: 
-  roomType: 7
-  entrances: 000000000000000000000000
-  suitableRooms: 01000000020000000400000005000000
+  roomType: 4
+  entrances: 0200000004000000
+  suitableRooms: 05000000
   isMandatory: 0
   isEndRoom: 0
+  roomPrefab: {fileID: 919132149155446097, guid: 9e9288d4de5874e658aceeb24942d4ea, type: 3}

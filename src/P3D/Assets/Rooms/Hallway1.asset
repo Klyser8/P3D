@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80084e61aa5a049bc8ab1e33ef04ade8, type: 3}
-  m_Name: FourWay1Data
+  m_Name: Hallway1
   m_EditorClassIdentifier: 
-  roomType: 3
-  entrances: 00000000000000000000000000000000
-  suitableRooms: 01000000020000000400000005000000
+  roomType: 1
+  entrances: 0000000002000000
+  suitableRooms: 01000000020000000400000006000000070000000300000005000000
   isMandatory: 0
   isEndRoom: 0
+  roomPrefab: {fileID: 919132149155446097, guid: ea7fc613b287b491ebe48d52595ab2ae, type: 3}
